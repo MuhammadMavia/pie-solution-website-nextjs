@@ -1,5 +1,5 @@
 {
-  "name": "techlab-react",
+  "name": "pie-solution-react",
   "version": "2.0",
   "private": true,
   "scripts": {
@@ -68,5 +68,5 @@
     "typescript": "^5.1.6"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "techlab-react@2.0"
+  "_id": "pie-solution-react@2.0"
 }

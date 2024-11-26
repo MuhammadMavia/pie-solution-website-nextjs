@@ -10,8 +10,8 @@ import { WorkprocessSection } from '@/src/sections/work-process/v1';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Techlab | About',
-  description: 'Techlab - IT Solutions and Services React Nextjs Template',
+  title: 'Pie Solution | About',
+  description: 'Pie Solution - IT Solutions and Services React Nextjs Template',
 };
 
 export default function Page() {
