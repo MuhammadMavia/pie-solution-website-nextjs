@@ -17,19 +17,19 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <MainHeader version="2" />
-      <HeroSection
-        title="About Us"
-        breadcrumbItems={[
-          {
-            label: 'Home',
-            href: '/',
-          },
-          {
-            label: 'About',
-          },
-        ]}
-      />
+      <MainHeader version="1" />
+      {/*<HeroSection*/}
+      {/*  title="About Us"*/}
+      {/*  breadcrumbItems={[*/}
+      {/*    {*/}
+      {/*      label: 'Home',*/}
+      {/*      href: '/',*/}
+      {/*    },*/}
+      {/*    {*/}
+      {/*      label: 'About',*/}
+      {/*    },*/}
+      {/*  ]}*/}
+      {/*/>*/}
       <AboutSection />
       <CtaSection />
       <TestimonialSection />
