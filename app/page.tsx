@@ -31,7 +31,7 @@ export default function Page() {
       <ProjectSection {...projectSectionData} />
       <StatisticsSection />
       <TestimonialSection />
-      <PricingSection />
+      {/*<PricingSection />*/}
       <TeamSection />
       <ContactSection />
       <BlogSection />
