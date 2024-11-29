@@ -16,14 +16,14 @@ import { WorkprocessSection } from '@/src/sections/work-process/v1';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Techlab | Home verion two',
-  description: 'Techlab - IT Solutions and Services React Nextjs Template',
+  title: 'Pie Solution | Home version two',
+  description: 'Pie Solution - IT Solutions and Services React Nextjs Template',
 };
 
 export default function Page() {
   return (
     <>
-      <MainHeader version="2" />
+      <MainHeader version="1" />
       <HeroSection />
       <ServiceSection className="!pt-0" {...serviceSectionData} />
       <CtaSection />

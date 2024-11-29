@@ -5,14 +5,14 @@ import { ProjectDetailsSection } from '@/src/sections/project-details/v1';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Techlab | Project details',
-  description: 'Techlab - IT Solutions and Services React Nextjs Template',
+  title: 'Pie Solution | Project details',
+  description: 'Pie Solution - IT Solutions and Services React Nextjs Template',
 };
 
 export default function Page() {
   return (
     <>
-      <MainHeader version="2" />
+      <MainHeader version="1" />
       <HeroSection
         title="Project Details"
         breadcrumbItems={[

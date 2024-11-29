@@ -9,7 +9,7 @@ export const heroData: HeroProps = {
       },
       title: 'Empowering Your Digital Future',
       button: {
-        label: 'Discover More',
+        label: 'Get Started',
         href: '/',
       },
     },
@@ -20,7 +20,7 @@ export const heroData: HeroProps = {
       },
       title: 'Empowering Your Digital Future',
       button: {
-        label: 'Discover More',
+        label: 'Get Started',
         href: '/',
       },
     },
@@ -31,7 +31,7 @@ export const heroData: HeroProps = {
       },
       title: 'Empowering Your Digital Future',
       button: {
-        label: 'Discover More',
+        label: 'Get Started',
         href: '/',
       },
     },

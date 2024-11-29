@@ -7,14 +7,15 @@ import { cn } from '@/src/utils/shadcn';
 import { Toaster } from 'sonner';
 import { ThemeProvider } from '@/src/components/theme-provider';
 import { ModeToggle } from '@/src/components/mode-toggle';
+import Script from 'next/script';
 
 interface Props {
   children: React.ReactNode;
 }
 
 export const metadata: Metadata = {
-  title: 'Techlab',
-  description: 'Techlab - IT Solutions and Services React Nextjs Template',
+  title: 'Pie Solution',
+  description: 'Pie Solution - IT Solutions and Services React Nextjs Template',
 };
 
 export default async function RootLayout({ children }: Props) {
@@ -29,6 +30,27 @@ export default async function RootLayout({ children }: Props) {
         'text-base leading-[1.875] text-accent-800 [&.dark]:text-body'
       )}
     >
+
+    {/* Google Analytics Script */}
+    <Script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-R4YPYJKZ2P"
+      strategy="afterInteractive"
+    />
+    <Script
+      id="google-analytics"
+      strategy="afterInteractive"
+      dangerouslySetInnerHTML={{
+        __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-R4YPYJKZ2P');
+          `,
+      }}
+    />
+
+
       <AOSInit />
       <body>
         <ThemeProvider

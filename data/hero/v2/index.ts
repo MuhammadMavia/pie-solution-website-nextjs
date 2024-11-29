@@ -23,7 +23,7 @@ export const heroSectionData: HeroSectionProps = {
   },
   ctaButton: {
     href: '',
-    label: 'Discover More',
+    label: 'Get Started',
   },
   imageLarge: {
     src: '/assets/images/hero/hero-5.png',

@@ -5,14 +5,14 @@ import { TeamSection } from '@/src/sections/team/grid';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Techlab | Team',
-  description: 'Techlab - IT Solutions and Services React Nextjs Template',
+  title: 'Pie Solution | Team',
+  description: 'Pie Solution - IT Solutions and Services React Nextjs Template',
 };
 
 export default function Page() {
   return (
     <>
-      <MainHeader version="2" />
+      <MainHeader version="1" />
       <HeroSection
         title="Team"
         breadcrumbItems={[

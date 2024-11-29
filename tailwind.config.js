@@ -76,7 +76,7 @@ module.exports = {
         99: '99',
         111: '111',
         444: '444',
-        444: '999',
+        999: '999',
       },
       boxShadow: {
         1: '0px 0px 60px 0px rgba(0, 0, 0, 0.05)',
@@ -164,8 +164,7 @@ module.exports = {
         'accordion-up': 'accordion-up 0.2s ease-out',
         fadeInDown: 'fadeInDown 1s both 0s',
         'infinite-scroll': 'infinite-scroll 40s linear infinite',
-        'infinite-scroll-reverse':
-          'infinite-scroll-reverse 40s linear infinite',
+        'infinite-scroll-reverse': 'infinite-scroll-reverse 40s linear infinite',
         'float-bob-y': 'float-bob-y 2s linear infinite',
         'rotate-me': 'rotate-me 25s linear infinite',
         'float-bob-x': 'float-bob-x 2s linear infinite',
