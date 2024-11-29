@@ -112,11 +112,11 @@ export const footerSectionData: FooterSectionProps = {
   columnFour: {
     title: 'Contact Us',
     phoneNumber: '+880 123 45 67 89',
-    mail: 'yourmail@gmail.com',
+    mail: 'info@piesolutionllc.com',
     location: '1212, Lav Vegas, The Veg Street, USA',
   },
   footerBottom: {
-    copyrightText: '© Yoursitename  2024 | All Rights Reserved',
+    copyrightText: '© Pie Solution LLC  2024 | All Rights Reserved',
     links: [
       {
         label: 'Trams & Condition',

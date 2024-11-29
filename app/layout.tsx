@@ -6,7 +6,6 @@ import { ScrollToTopButton } from '@/src/components/scroll-to-top';
 import { cn } from '@/src/utils/shadcn';
 import { Toaster } from 'sonner';
 import { ThemeProvider } from '@/src/components/theme-provider';
-import { ModeToggle } from '@/src/components/mode-toggle';
 import Script from 'next/script';
 
 interface Props {
@@ -65,7 +64,7 @@ export default async function RootLayout({ children }: Props) {
             )}
           >
             <main>{children}</main>
-            <ModeToggle />
+            {/*<ModeToggle />*/}
           </div>
         </ThemeProvider>
         <Toaster

@@ -2,17 +2,8 @@ import { HeaderProps } from '@/src/layout/header/desktop/v1';
 
 export const menuItemsProps: HeaderProps['menuItems'] = [
   {
-    title: 'Home',
-    subMenuItems: [
-      {
-        label: 'Home One',
-        href: '/',
-      },
-      {
-        label: 'Home Two',
-        href: '/home-2',
-      },
-    ],
+    label: 'Home',
+    href:'/',
   },
   {
     label: 'About',
@@ -32,17 +23,12 @@ export const menuItemsProps: HeaderProps['menuItems'] = [
     ],
   },
   {
-    title: 'Project',
-    subMenuItems: [
-      {
-        label: 'Project List',
-        href: '/project',
-      },
-      {
-        label: 'Project single',
-        href: '/project/single',
-      },
-    ],
+    label: 'Technologies',
+    href: '/technologies',
+  },
+  {
+    label: 'Careers',
+    href: '/technologies',
   },
   {
     title: 'Blog',
@@ -54,27 +40,6 @@ export const menuItemsProps: HeaderProps['menuItems'] = [
       {
         label: 'Blog single',
         href: '/blog/single',
-      },
-    ],
-  },
-  {
-    title: 'Pages',
-    subMenuItems: [
-      {
-        label: 'Testimonial',
-        href: '/testimonial',
-      },
-      {
-        label: 'Team',
-        href: '/team',
-      },
-      {
-        label: 'Pricing',
-        href: '/pricing',
-      },
-      {
-        label: 'FAQ',
-        href: '/faq',
       },
     ],
   },
