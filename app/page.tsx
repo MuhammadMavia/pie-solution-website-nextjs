@@ -8,7 +8,6 @@ import { ContactSection } from '@/src/sections/contact/v2';
 import { CtaSection } from '@/src/sections/cta/v1';
 import { Hero } from '@/src/sections/hero/v1';
 import { ProjectSection } from '@/src/sections/project/v1';
-import { PricingSection } from '@/src/sections/pricing/version-1';
 import { ServiceSection } from '@/src/sections/service/v1';
 import { StatisticsSection } from '@/src/sections/statistics/v1';
 import { TeamSection } from '@/src/sections/team/v1';
