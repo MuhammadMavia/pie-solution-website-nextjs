@@ -1,5 +1,5 @@
 User-agent: *
 
-Disallow:
+Allow: /
 
-Sitemap: https://devabyte.com/sitemap.xml
+Sitemap: https://piesolutionllc.com/sitemap.xml
