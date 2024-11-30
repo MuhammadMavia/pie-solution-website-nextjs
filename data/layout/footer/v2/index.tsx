@@ -111,9 +111,9 @@ export const footerSectionData: FooterSectionProps = {
   },
   columnFour: {
     title: 'Contact Us',
-    phoneNumber: '+880 123 45 67 89',
+    phoneNumber: '+1 (307) 205-6469',
     mail: 'info@piesolutionllc.com',
-    location: '1212, Lav Vegas, The Veg Street, USA',
+    location: '30 N Gould St, Suite 26555, Sheridan, WY 82801, USA',
   },
   footerBottom: {
     copyrightText: '© Pie Solution LLC  2024 | All Rights Reserved',

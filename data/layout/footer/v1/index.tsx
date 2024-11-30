@@ -57,9 +57,9 @@ export const footerSectionData: FooterSectionProps = {
   },
   columnTwo: {
     title: 'Address',
-    location: '2972 Westheimer Rd. Santa Ana, Illinois 85486 ',
+    location: '30 N Gould St, Suite 26555, Sheridan, WY 82801, USA',
     mails: ['info@piesolutionllc.com', 'support@piesolutionllc.com'],
-    phoneNumbers: ['(405) 555-0128', '(629) 555-0129'],
+    phoneNumbers: ['+1 (307) 205-6469'],
   },
   columnThree: {
     title: 'Recent Blog',
