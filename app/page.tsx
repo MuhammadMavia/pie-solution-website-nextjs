@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <MainHeader version="1" />
+      <MainHeader version="1" noShadow={true} />
       <Hero />
       <ServiceSection className="!pb-0" {...serviceSectionData} />
       <AboutSection />
