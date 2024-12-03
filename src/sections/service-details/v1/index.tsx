@@ -1,4 +1,4 @@
-import { LinkProps, blurDataUrl } from '@/src/common-types';
+import { blurDataUrl } from '@/src/common-types';
 import { Button } from '@/src/components/button';
 import { Container } from '@/src/components/container';
 import { CustomLink } from '@/src/components/custom-link';
@@ -6,33 +6,10 @@ import { TextInput } from '@/src/components/inputs/text-input';
 import { cn } from '@/src/utils/shadcn';
 import Image from 'next/image';
 import { FaCircleCheck, FaPhone } from 'react-icons/fa6';
+import { serviceSectionData } from '@/data/service-section/v1/service-list-page';
+import { ServiceProps } from '@components/cards/service/v1';
 
-const services: LinkProps[] = [
-  {
-    label: 'AI Insights Pro',
-    href: '/',
-  },
-  {
-    label: 'Tech Armor Security',
-    href: '/',
-  },
-  {
-    label: 'Blockchain Forge',
-    href: '/',
-  },
-  {
-    label: 'DigitalIQ Consulting',
-    href: '/',
-  },
-  {
-    label: 'RapidApp Innovate',
-    href: '/',
-  },
-  {
-    label: 'RoboLogic Labs',
-    href: '/',
-  },
-];
+const services: ServiceProps[] = serviceSectionData.services;
 
 export function ServiceDetailsSection() {
   return (
@@ -51,10 +28,10 @@ export function ServiceDetailsSection() {
                   {services.map((service, index) => (
                     <li key={index}>
                       <CustomLink
-                        href={service.href}
+                        href={service.slug}
                         className="flex items-center justify-between gap-4 transition-colors duration-300 hover:text-primary"
                       >
-                        <span className="flex-1">{service.label}</span>
+                        <span className="flex-1">{service.title}</span>
                         <svg
                           width={22}
                           height={7}
@@ -106,9 +83,9 @@ export function ServiceDetailsSection() {
                 <p className="mb-1 mt-6">Need help? contact our experts</p>
                 <a
                   className="font-secondary text-md font-bold  transition-colors duration-300"
-                  href="tel:+0032-1255-69874"
+                  href="tel:+13072056469"
                 >
-                  +0032-1255-69874
+                  +1 (307) 205-6469
                 </a>
               </div>
             </div>

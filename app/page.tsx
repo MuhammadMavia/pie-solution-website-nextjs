@@ -17,7 +17,6 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Pie Solution | Home',
   description: 'Pie Solution - IT Solutions and Services React Nextjs Template',
-  robots:''
 };
 
 export default function Page() {

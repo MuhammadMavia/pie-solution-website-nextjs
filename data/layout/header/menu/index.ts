@@ -10,17 +10,8 @@ export const menuItemsProps: HeaderProps['menuItems'] = [
     href: '/about',
   },
   {
-    title: 'Service',
-    subMenuItems: [
-      {
-        label: 'Service List',
-        href: '/services',
-      },
-      {
-        label: 'Service single',
-        href: '/services/single',
-      },
-    ],
+    label: 'Service',
+    href: '/services',
   },
   {
     label: 'Technologies',
@@ -28,7 +19,7 @@ export const menuItemsProps: HeaderProps['menuItems'] = [
   },
   {
     label: 'Careers',
-    href: '/technologies',
+    href: '/careers',
   },
   {
     title: 'Blog',
